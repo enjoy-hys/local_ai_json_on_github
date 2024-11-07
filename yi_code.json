@@ -1,0 +1,23 @@
+{
+  "address": "",
+  "chat": "/Users/starx104/jpro/jtest/ai_local/Yi-Coder-9B-Chat-Q5_K_M.gguf",
+  "chat_ctx_size": "32768",
+  "chat_batch_size": "128",
+  "chat_name": "Yi-Coder-9B-Chat-Q5_K_M",
+  "description": "Yi-Coder-9B-Chat",
+  "domain": "us.gaianet.network",
+  "embedding": "/Users/starx104/jpro/jtest/ai_local/nomic-embed-text-v1.5.f16.gguf",
+  "embedding_ctx_size": "8192",
+  "embedding_batch_size": "8192",
+  "embedding_name": "nomic-embed-text-v1.5.f16",
+  "llamaedge_port": "8080",
+  "prompt_template": "chatml",
+  "rag_prompt": "Use the following pieces of context to answer the user's question.\n----------------\n",
+  "reverse_prompt": "<|im_end|>",
+  "snapshot": "",
+  "system_prompt": "You are an expert software developer.",
+  "rag_policy": "system-message",
+  "embedding_collection_name": "default",
+  "qdrant_limit": "1",
+  "qdrant_score_threshold": "0.5"
+}
